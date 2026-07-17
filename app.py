@@ -665,7 +665,7 @@ def page_model(df: pd.DataFrame):
             ))
         fig_radar.update_layout(
             polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
-            title="Radar – Multi-Metric Comparison",
+            title_text="Radar – Multi-Metric Comparison",
             **plotly_theme(),
             height=500,
         )
