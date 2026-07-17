@@ -1148,8 +1148,8 @@ def page_about():
         section_header("👤", "Author")
         st.markdown("""
         <div class="info-box">
-        <strong>Project Type:</strong> Final Year Internship Project<br>
-        <strong>Domain:</strong> Banking &amp; Financial Analytics<br>
+        <strong>Project Type:</strong> Internship Project<br>
+        <strong>Domain:</strong> Data Analytics<br>
         <strong>Year:</strong> 2026<br><br>
         <strong>Objective:</strong> Build a production-quality ML system that helps
         financial institutions assess and manage credit risk through predictive
@@ -1225,7 +1225,7 @@ def sidebar_navigation():
         <div style="text-align:center; padding:8px; opacity:0.6;">
             <p style="color:#94a3b8; font-size:11px; margin:0;">
                 v1.0.0 &nbsp;·&nbsp; 2026<br>
-                Final Year Internship
+                Internship Project
             </p>
         </div>
         """, unsafe_allow_html=True)
