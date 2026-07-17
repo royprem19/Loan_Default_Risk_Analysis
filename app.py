@@ -48,7 +48,7 @@ def inject_custom_css():
     /* ── Google Font ─────────────────────────────────── */
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-    html, body, [class*="st-"] {
+    html, body {
         font-family: 'Inter', sans-serif;
     }
 
@@ -262,7 +262,7 @@ def plotly_theme():
     return dict(
         template="plotly_white",
         font=dict(family="Inter, sans-serif", size=13),
-        title_font=dict(size=18, color="#1e3a5f"),
+        title=dict(font=dict(size=18, color="#1e3a5f")),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(l=40, r=40, t=50, b=40),
