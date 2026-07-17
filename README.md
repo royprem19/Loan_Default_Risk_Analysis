@@ -70,7 +70,7 @@ Loan_Default_Risk_Analysis/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/Loan_Default_Risk_Analysis.git
+   git clone https://github.com/royprem19/Loan_Default_Risk_Analysis.git
    cd Loan_Default_Risk_Analysis
    ```
 
