@@ -602,7 +602,7 @@ def page_model(df: pd.DataFrame):
         def highlight_best(row):
             """Highlight the Tuned RF row."""
             if row["Model"] == "Tuned Random Forest":
-                return ["background-color: #dbeafe; font-weight: 600"] * len(row)
+                return ["background-color: #dbeafe; color: #1e3a8a; font-weight: 600"] * len(row)
             return [""] * len(row)
 
         styled = (
